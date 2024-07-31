@@ -4,7 +4,7 @@ body {
     padding: 25px;
 }
 .header {
-    background: url('basicpics_header') no-repeat center center;
+    background: url('basepics_header.jpg') no-repeat center center;
     background-size: cover;
     height: 300px;
     display: flex;
