@@ -3,22 +3,34 @@ body {
     margin-top: 0;
     padding: 25px;
 }
-header {
+.header {
+    background: url('basicpics_header') no-repeat center center;
+    background-size: cover;
+    height: 300px;
     display: flex;
-    position: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+}
+
+.header::before {
+    content: "";
+    position: absolute;
     top: 0;
     left: 0;
-    right: 0;
-    height: 100px;
-    line-height: 50px;
-    background-color: #b3e6ff;
-    padding: 25px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the transparency here */
+    z-index: 1;
 }
-header * {
-    display: inline;
-    height: 0;
-    line-height: 50px;
+
+.header h1 {
+    position: relative;
+    z-index: 2;
+    margin: 0;
 }
+
 section {
     height: 100vh;
     border: 1px solid black;
