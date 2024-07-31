@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+ 
+ <!-- Head options -->
+<head>
+    <meta charset = "utf-8">
+    <meta name="description" content="Blog" />
+    <meta name="keywords" content="Diabetic, Whines, Whining" />
+    <title>Saverio Spinella</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+ <!-- Body -->
+<body>
+  
+ <!-- Header -->
+<header>
+    <!-- Define navigator -->
+ <h2> I have diabetes and I like whining </h2>
+ </header>
+  
+   <!-- Main -->
+  <main>
+   <div class="column">
+   <div class="bigspacer"> </div>
+   <div> The Bear, Better Call Saul, Wes Anderson, David Foster Wallace, Edward Hopper, Kevin Hart  </div>
+   <div class="spacer" height=15px> </div>
+   <div>I guess I've still got some more healing to do</div>
+   </div>
+
+  </main>
+  
+</body>
+  
+  </html>
